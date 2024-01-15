@@ -1,0 +1,87 @@
+.drag-drop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 83px;
+}
+.drag-drop-container .file-drop {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 694px;
+    height: 444px;
+}
+.drag-drop-container .file-drop .drag-drop-tag img {
+    margin-top: 20px;
+}
+.drag-drop-container .file-drop .drag-drop-tag .header-title {
+    margin-top: 20px;
+}
+.drag-drop-container .file-drop .drag-drop-tag .file-upload-terms {
+    text-align: center;
+    margin: 20px 0px;
+}
+.drag-drop-container .file-drop .drag-drop-tag .file-upload-terms p {
+    display: inline-block;
+}
+.drag-drop-container .file-drop .drag-drop-tag .file-upload-terms .muda-texto {
+    font-family: Kantumruy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: red;
+}
+.drag-drop-container .file-drop .drag-drop-tag .file-upload-terms .file-types {
+    font-family: Kantumruy;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+.drag-drop-container .file-drop .drag-drop-tag .file-upload-terms .file-size {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+.drag-drop-container .file-drop .button-1 {
+    margin-top: 30px;
+}
+.drag-drop-container .file-drop .btn-up {
+    padding: 8px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6a9ab4;
+    color: #fff;
+    border: 1px solid #008cba;
+}
+.drag-drop-container .file-drop .custom-fileupload {
+    margin-top: 5%;
+}
+@media screen and (max-width: 430px) {
+    .drag-drop-container {
+        padding: 0px 16px;
+   }
+    .drag-drop-container .file-drop .drag-drop-tag img {
+        margin-top: 0px;
+   }
+    .drag-drop-container .header-title {
+        margin-top: 10px;
+   }
+    .drag-drop-container .custom-fileupload {
+        margin-top: 2%;
+   }
+}

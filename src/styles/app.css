@@ -1,0 +1,417 @@
+.container-home {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    gap: 40px;
+    min-height: 100vh;
+}
+.header-title {
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+.header-title .sub-title {
+    font-size: 22px;
+    text-align: start;
+}
+.login-home {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh - 157px);
+    gap: 40px;
+}
+.login-home div:first-of-type {
+    max-width: 300px;
+    width: 300px;
+}
+.login-home .input-text-component {
+    margin-top: 20px;
+}
+.login-home .input-text-component input {
+    margin-top: 7px;
+}
+.login-home .button-2 {
+    margin-top: 27px;
+}
+.login-home .forgot-password {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: end;
+    margin-top: 10px;
+    color: #6a9ab4;
+}
+.input-text-component label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.input-text-component input {
+    width: 100%;
+    height: 35px;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+.hr-line-container {
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr-line-container hr {
+    width: 75px;
+    border: 1px solid black;
+}
+.hr-line-container div {
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #808080;
+    max-width: 150px;
+}
+.contact-to-email {
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-to-email span {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6a9ab4;
+}
+.contact-to-email p {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #808080;
+}
+.account-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh - 157px);
+    gap: 40px;
+}
+.account-card-container {
+    box-shadow: 0px 0px 10px 0px #0000000D;
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 4%;
+}
+.account-card-container .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.account-card-container .card-body .card-side {
+    min-width: 350px;
+    padding-left: 15%;
+}
+.account-card-container .card-body .card-header-title {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.account-card-container .card-body .card-menu-title {
+    font-family: Kantumruy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #6a9ab4;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.contact-page {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh - 157px);
+    gap: 40px;
+}
+.contact-container {
+    max-width: 700px;
+    width: 700px;
+    padding: 10% 20%;
+}
+.contact-container .dropdown-container {
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-container .header-title {
+    font-weight: 900;
+}
+.contact-container .header-title .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: start;
+}
+.contact-container .contact-description {
+    font-family: Kantumruy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+    margin: 10px 0px 40px 0px;
+}
+.contact-container .header-title {
+    text-align: start;
+}
+.contact-container textarea {
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-container .input-text-component {
+    margin-top: 20px;
+}
+.contact-container button {
+    margin-top: 20px;
+}
+.contact-container .custom-dropdown {
+    width: 100%;
+    height: 40px;
+    background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.contact-container .custom-dropdown span {
+    box-shadow: none;
+    font-family: Kantumruy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.p-dropdown-items-wrapper ul {
+    padding: 10px;
+}
+.p-dropdown-items-wrapper ul li {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Kantumruy;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.dropdown-container label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+@media screen and (max-width: 430px) {
+    .contact-container {
+        width: 100%;
+   }
+   .custom-header-container {
+        height: 52px !important;
+    }
+    .desktop-v{
+        display: none !important;
+    }
+    .mobile-v{
+        display: flex !important;
+    }
+    .nav-actions {
+        width: 120px !important;
+    }
+    .setting-data {
+        display: block !important;
+    }
+    .user-data {
+        height: 278px !important;
+        width: 100% !important;
+        display: block !important;
+        right: 0 !important;
+    }
+}
+.p-dialog-header div {
+    padding: 15px 20px;
+}
+
+.custom-footer-container {
+    background-color: black; /* Set the background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    height: 120px;
+  }
+  
+  .footer-content {
+    /* Additional styling for the content within the footer */
+    display: none;
+  }
+.contact-message {
+    border: 1px solid black;
+    padding: 5px;
+}
+.header-navbar {
+    position: sticky;
+    top: 0%;
+    background: white;
+}
+
+
+.custom-header-container {
+    height: 76px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.nav-actions {
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.configuration-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+.configuration-container .p-inputtext  {
+    border: none;
+    background-color: #ECECEC;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+.configuration-container img{
+    margin-left: 10px;
+}
+
+.desktop-v{
+    display: flex;
+}
+.mobile-v{
+    display: none;
+}
+.setting-data {
+    position: absolute;
+    top:  52px;
+    height: 114px;
+    display: none;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.user-data hr{
+    width: 90%;
+    margin: auto;
+}
+.user-data .user-name {
+    font-family: Kantumruy;
+font-size: 16px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 10px;
+}
+.user-data {
+    position: absolute;
+    top:  52px;
+    height: 278px;
+    display: block;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+
+    width: 200px;
+    height: 200px;
+    right: 65px;
+}
+
+.user-data .user-actions {
+    margin: 10px 0px;
+    font-family: Kantumruy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.user-data .sign-out {
+    font-family: Kantumruy;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.setting-data .p-inputtext {
+    border: none;
+    background-color: #ECECEC;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+
+.mobile-nav-actions {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
